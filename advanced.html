@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+            <h6 class="align-left">Advanced Search</h6>
+            <nav class="align-right">
+                <a href="index.html">Google Search</a>
+            </nav >
+            <br>
+            <br>
+        <form action="https://google.com/search">
+            <div id="grid">
+                <div class="grid-item">Find pages with...</div>
+                <div class="grid-item"></div>
+                <div class="grid-item">To do this in the search box.</div>
+                <div class="grid-item"><label for="all">all these words:</label></div>
+                <div class="grid-item"><input type="text" id="all" name="as_q"></div>
+                <div class="grid-item"><label for="all">Type the important words: tri-colour rat terrier</label></div>
+                <div class="grid-item"><label for="exact">this exact word or phrase:</label></div>
+                <div class="grid-item"><input type="text" id="exact" name="as_epq"></div>
+                <div class="grid-item"><label for="exact">Put exact words in quotes: "rat terrier"</label></div>
+                <div class="grid-item"><label for="any">any of these words:</label></div>
+                <div class="grid-item"><input type="text" id="any" name="as_oq"></div>
+                <div class="grid-item"><label for="any">Type OR between all the words you want: miniature OR standard</label></div>
+                <div class="grid-item"><label for="none">none of these words:</label></div>
+                <div class="grid-item"><input type="text" id="none" name="as_eq"></div>
+                <div class="grid-item"><label for="none">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"><input name="lr" value="" type="hidden">
+                    <input class="advanced-button" value="Advanced Search" type="submit"></div>
+                <div class="grid-item"></div>
+            </div>
+            
+        </form>
+    </body>
+</html>
