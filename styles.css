@@ -102,7 +102,7 @@ nav{
     height:24px;
     min-width:120px;
     color:white;
-    background-color: cornflowerblue;
+    background-color: rgb(71,135,238);
     border: none;
     font-weight:bold;
     font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
@@ -132,7 +132,7 @@ nav{
 {
     margin:24px 0px 0px 24px;
     font-family: Helvetica Nueu, segoi UI, sans-serif;
-    color: crimson;
+    color: rgb(217,48,37);
 }
 .align-left{
   float: left;
@@ -144,9 +144,23 @@ nav{
 }
 .grey-button{
   border: none;
-  background-color: rgb(240,240,240);
+  background-color: rgb(255,255,255);
   font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   font-size: 11px;
   color: dimgray;
   padding: 7px;
+}
+
+form.form-search:before {
+  content:'';
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+  background-position: -48px 0;
+  position: absolute;
+  top:8px;
+  left:8px;
+  opacity: .5;
+  z-index: 1000;
 }
