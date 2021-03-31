@@ -1,0 +1,6 @@
+You are not in a Linux/macOS terminal, but a terminal panel in VSCode, which runs PowerShell
+in fact. So touch is obviously not a command there.
+
+instead of "touch" -> <code -r newFile.js>
+
+<code .> to open directory
