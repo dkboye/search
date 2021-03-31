@@ -4,3 +4,4 @@ in fact. So touch is obviously not a command there.
 instead of "touch" -> <code -r newFile.js>
 
 <code .> to open directory
+OK!
